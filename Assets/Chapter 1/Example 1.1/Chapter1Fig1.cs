@@ -9,7 +9,7 @@ public class Chapter1Fig1 : MonoBehaviour
     private float x = 0F;
     private float y = 0F;
     private float xSpeed = 0.1F;
-    private float ySpeed = 0.1F;
+    private float ySpeed = 0.2F;
 
     // Variables to limit the mover within the screen space
     private float xMin, yMin, xMax, yMax;
@@ -60,8 +60,8 @@ public class Chapter1Fig1 : MonoBehaviour
         }
 
         // Lets now update the location of the mover
-        x += xSpeed;
-        y += ySpeed;
+        //x += xSpeed;
+        //y += ySpeed;
 
         // Now we apply the positions to the mover to put it in it's place
         mover.transform.position = new Vector2(x, y);

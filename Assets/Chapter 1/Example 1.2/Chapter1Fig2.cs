@@ -7,7 +7,7 @@ public class Chapter1Fig2 : MonoBehaviour
 {
     // Variables for the location and speed of mover
     private Vector2 location = new Vector2(0F, 0F);
-    private Vector2 velocity = new Vector2(0.1F, 0.1F);
+    private Vector2 velocity = new Vector2(0.1F, -0.01F);
 
     // Variables to limit the mover within the screen space
     private Vector2 minimumPos, maximumPos;
