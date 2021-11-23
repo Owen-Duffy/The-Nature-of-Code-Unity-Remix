@@ -6,9 +6,9 @@ public class Chapter3Fig1_basic : MonoBehaviour
 {
 
     public GameObject Baton;
-    float xAngle;
-    float yAngle;
-    float zAngle = 3.3f;
+    float xAngle = 3.3f;
+    float yAngle = 3.3f;
+    float zAngle;// = 3.3f;
 
 
     // Start is called before the first frame update
